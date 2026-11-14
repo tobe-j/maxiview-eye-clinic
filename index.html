@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maxiview Eye Clinic | ...Excellence In Eye Care | Benin City</title>
 
-  <!-- Google Fonts: Plus Jakarta Sans & Playfair Display / Outfit -->
+  <!-- Google Fonts: Plus Jakarta Sans, Caveat & Alfa Slab One (for exact official logo lettering) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Caveat:wght@600;700&family=Alfa+Slab+One&family=Marcellus&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Caveat:wght@600;700&family=Alfa+Slab+One&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -23,7 +23,7 @@
           fontFamily: {
             sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
             script: ['"Caveat"', 'cursive'],
-            logoTitle: ['"Alfa Slab One"', 'Impact', 'sans-serif'],
+            logoSlab: ['"Alfa Slab One"', 'Rockwell', 'serif'],
           },
           colors: {
             brand: {
@@ -37,8 +37,8 @@
               emeraldLight: '#ECFDF5',
               coral: '#F97316',
               nhisBlue: '#1D4ED8',
-              logoBlue: '#1E14A8',
-              logoScript: '#B83A2E'
+              logoBlue: '#1B0FC4',
+              logoScript: '#CC3B2E'
             }
           },
           boxShadow: {
@@ -59,7 +59,7 @@
     }
     /* Subtle Glassmorphism */
     .glass-nav {
-      background: rgba(255, 255, 255, 0.94);
+      background: rgba(255, 255, 255, 0.96);
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
     }
@@ -111,51 +111,51 @@
   <!-- ================= STICKY HEADER & NAVBAR ================= -->
   <header class="sticky top-0 z-40 glass-nav border-b border-slate-200/80 transition-all duration-300 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-20">
+      <div class="flex items-center justify-between h-24">
         
-        <!-- Authentic Exact Recreated Maxiview Brand Logo -->
+        <!-- Official Maxiview Eye Clinic Brand Logo (Exact Vector + Slab-Serif Typography Match) -->
         <a href="#" class="flex items-center gap-3 group py-1">
-          <!-- High-fidelity Vector Representation of Maxiview Clinic Logo Image -->
-          <div class="w-14 h-14 sm:w-16 sm:h-16 shrink-0 bg-white p-1 rounded-xl shadow-sm border border-slate-100 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-            <svg viewBox="0 0 240 220" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <!-- Top Sweeping Eyebrow Arc (Cyan/Azure) -->
-              <path d="M 40 78 C 55 25, 120 18, 172 36" stroke="url(#logoCyanGrad)" stroke-width="7" stroke-linecap="round" fill="none"/>
+          <!-- Official Cyan Eye Emblem with Radial Iris & Specular Notch -->
+          <div class="w-16 h-14 sm:w-20 sm:h-16 shrink-0 bg-white p-1 rounded-xl shadow-sm border border-slate-100 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+            <svg viewBox="0 0 240 165" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Top Sweeping Eyebrow Arc -->
+              <path d="M 38 66 C 54 14, 118 8, 168 26 C 122 16, 62 24, 38 66 Z" fill="url(#officialEyeGrad)"/>
               
-              <!-- Upper Eyelid & Wing / Tail -->
-              <path d="M 30 110 C 65 52, 140 45, 215 58 C 175 75, 125 72, 85 88 C 65 96, 45 106, 30 110 Z" fill="url(#logoCyanGrad)"/>
+              <!-- Upper Eyelid & Sweeping Wing Tail -->
+              <path d="M 24 102 C 62 38, 134 32, 214 48 C 192 74, 152 72, 118 62 C 82 54, 48 74, 24 102 Z" fill="url(#officialEyeGrad)"/>
               
-              <!-- Central Detailed Iris with Concentric Radial Ribs & Highlight -->
-              <g transform="translate(112, 86)">
-                <!-- Iris outer disk with radial texture -->
-                <circle cx="0" cy="0" r="32" fill="#0EA5E9" fill-opacity="0.85"/>
-                <!-- Radiating fine lines of the iris -->
-                <circle cx="0" cy="0" r="28" stroke="#38BDF8" stroke-width="1.8" stroke-dasharray="2 3"/>
-                <circle cx="0" cy="0" r="23" stroke="#BAE6FD" stroke-width="1.5" stroke-dasharray="2 2"/>
-                <circle cx="0" cy="0" r="17" stroke="#0284C7" stroke-width="2"/>
-                <!-- Inner white highlight pupil boundary -->
-                <circle cx="0" cy="0" r="12" fill="#FFFFFF"/>
-                <!-- Central dark pupil -->
-                <circle cx="0" cy="0" r="6" fill="#0C4A6E"/>
+              <!-- Central Detailed Radial Iris with Specular Highlight Notch -->
+              <g transform="translate(106, 80)">
+                <!-- Outer Cerulean Iris Circle -->
+                <circle cx="0" cy="0" r="32" fill="#2396C4"/>
+                <!-- Concentric & Radial Iris Fibers -->
+                <circle cx="0" cy="0" r="28" stroke="#67C5E8" stroke-width="2" stroke-dasharray="2.5 2.5"/>
+                <circle cx="0" cy="0" r="21" stroke="#A5E1F7" stroke-width="1.5" stroke-dasharray="2 2"/>
+                <circle cx="0" cy="0" r="15" stroke="#16739B" stroke-width="2"/>
+                <!-- Central White Pupil Core -->
+                <circle cx="-2" cy="1" r="11" fill="#FFFFFF"/>
+                <!-- Specular Light Reflection Notch on Right Side of Iris (Exact Match to Official Logo) -->
+                <circle cx="17" cy="-6" r="8" fill="#FFFFFF"/>
               </g>
 
-              <!-- Lower Sweeping Eyelid Arc -->
-              <path d="M 52 122 C 90 144, 140 142, 176 96 C 145 132, 95 132, 52 122 Z" fill="url(#logoCyanGrad)"/>
+              <!-- Lower Sweeping Eyelid Crescent -->
+              <path d="M 48 118 C 92 146, 148 140, 178 88 C 146 124, 94 128, 48 118 Z" fill="url(#officialEyeGrad)"/>
 
               <defs>
-                <linearGradient id="logoCyanGrad" x1="20" y1="30" x2="220" y2="120" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#0284C7"/>
-                  <stop offset="0.45" stop-color="#00B4D8"/>
-                  <stop offset="0.85" stop-color="#38BDF8"/>
+                <linearGradient id="officialEyeGrad" x1="20" y1="20" x2="215" y2="120" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#299DC9"/>
+                  <stop offset="0.55" stop-color="#1E8BB7"/>
+                  <stop offset="1" stop-color="#146C94"/>
                 </linearGradient>
               </defs>
             </svg>
           </div>
           
           <div class="leading-none flex flex-col justify-center">
-            <span class="text-lg sm:text-xl font-black tracking-tight text-brand-logoBlue uppercase drop-shadow-sm font-sans" style="font-weight: 900; letter-spacing: -0.02em;">
+            <span class="font-logoSlab text-lg sm:text-[21px] tracking-wide text-brand-logoBlue uppercase leading-tight">
               MAXIVIEW
             </span>
-            <span class="text-base sm:text-lg font-black tracking-normal text-brand-logoBlue uppercase drop-shadow-sm font-sans -mt-0.5" style="font-weight: 900; letter-spacing: 0.01em;">
+            <span class="font-logoSlab text-base sm:text-[19px] tracking-wide text-brand-logoBlue uppercase leading-tight">
               EYE CLINIC
             </span>
             <p class="font-script text-sm sm:text-base text-brand-logoScript font-bold tracking-wide mt-0.5">
@@ -193,19 +193,20 @@
     <!-- Mobile Dropdown -->
     <div id="mobile-menu" class="hidden xl:hidden border-t border-slate-200 bg-white px-5 py-6 space-y-3.5 shadow-2xl">
       <div class="pb-3 border-b border-slate-100 flex items-center justify-between">
-        <div class="flex items-center gap-2">
-          <div class="w-8 h-8 rounded-lg bg-sky-50 border border-sky-100 flex items-center justify-center p-0.5">
-            <svg viewBox="0 0 240 220" class="w-full h-full" fill="none">
-              <path d="M 40 78 C 55 25, 120 18, 172 36" stroke="#00B4D8" stroke-width="12" stroke-linecap="round"/>
-              <path d="M 30 110 C 65 52, 140 45, 215 58 C 175 75, 125 72, 85 88 C 65 96, 45 106, 30 110 Z" fill="#00B4D8"/>
-              <circle cx="112" cy="86" r="28" fill="#0284C7"/>
-              <circle cx="112" cy="86" r="12" fill="#FFFFFF"/>
-              <path d="M 52 122 C 90 144, 140 142, 176 96 C 145 132, 95 132, 52 122 Z" fill="#00B4D8"/>
+        <div class="flex items-center gap-2.5">
+          <div class="w-10 h-8 rounded-lg bg-white border border-slate-200 flex items-center justify-center p-0.5">
+            <svg viewBox="0 0 240 165" class="w-full h-full" fill="none">
+              <path d="M 38 66 C 54 14, 118 8, 168 26 C 122 16, 62 24, 38 66 Z" fill="#1E8BB7"/>
+              <path d="M 24 102 C 62 38, 134 32, 214 48 C 192 74, 152 72, 118 62 C 82 54, 48 74, 24 102 Z" fill="#1E8BB7"/>
+              <circle cx="106" cy="80" r="30" fill="#2396C4"/>
+              <circle cx="104" cy="81" r="11" fill="#FFFFFF"/>
+              <circle cx="123" cy="74" r="8" fill="#FFFFFF"/>
+              <path d="M 48 118 C 92 146, 148 140, 178 88 C 146 124, 94 128, 48 118 Z" fill="#1E8BB7"/>
             </svg>
           </div>
           <div>
-            <p class="text-xs font-black text-brand-logoBlue leading-none">MAXIVIEW EYE CLINIC</p>
-            <p class="font-script text-[11px] text-brand-logoScript font-bold">...Excellence In Eye Care</p>
+            <p class="font-logoSlab text-xs text-brand-logoBlue leading-tight">MAXIVIEW EYE CLINIC</p>
+            <p class="font-script text-xs text-brand-logoScript font-bold">...Excellence In Eye Care</p>
           </div>
         </div>
         <span class="text-[10px] bg-brand-nhisBlue text-white font-bold px-2 py-0.5 rounded">NHIS Centre</span>
@@ -253,7 +254,7 @@
             </span>
           </h1>
 
-          <p class="font-script text-2xl sm:text-3xl text-rose-700 font-bold -mt-2">
+          <p class="font-script text-2xl sm:text-3xl text-brand-logoScript font-bold -mt-2">
             ...Excellence In Eye Care
           </p>
 
@@ -291,16 +292,17 @@
 
         </div>
 
-        <!-- Right: Multi-layered Medical Composition -->
+        <!-- Right: Multi-layered Medical Composition (Dark-Skinned Black African Doctor) -->
         <div class="lg:col-span-5 relative">
           <div class="relative mx-auto max-w-md lg:max-w-none">
             
             <!-- Main Featured Image -->
             <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-900 group">
               <img 
-                src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80" 
-                alt="Eye Examination with modern clinical equipment"
-                class="w-full h-[470px] object-cover group-hover:scale-105 transition-transform duration-700"
+                src="https://images.pexels.com/photos/4989148/pexels-photo-4989148.jpeg?auto=compress&cs=tinysrgb&w=1000" 
+                onerror="this.onerror=null; this.src='https://images.pexels.com/photos/19596247/pexels-photo-19596247.jpeg?auto=compress&cs=tinysrgb&w=1000';"
+                alt="Dark-skinned Black African Eye Doctor in white coat with stethoscope"
+                class="w-full h-[470px] object-cover object-top group-hover:scale-105 transition-transform duration-700"
               />
               <div class="absolute inset-0 bg-gradient-to-t from-brand-navy/90 via-brand-navy/20 to-transparent"></div>
               
@@ -612,7 +614,7 @@
     </div>
   </section>
 
-  <!-- ================= DIAGNOSTIC SUITE & EQUIPMENT SHOWCASE ================= -->
+  <!-- ================= DIAGNOSTIC SUITE & EQUIPMENT SHOWCASE (Dark-Skinned Black African Doctors & Patients) ================= -->
   <section id="facility" class="py-20 bg-slate-900 text-white relative overflow-hidden">
     <!-- Glow Backdrop -->
     <div class="absolute top-1/2 left-0 w-96 h-96 bg-brand-azure/20 rounded-full blur-3xl pointer-events-none"></div>
@@ -637,9 +639,10 @@
         <div class="bg-slate-800/90 rounded-3xl p-6 border border-slate-700 hover:border-brand-cyan/60 transition duration-300">
           <div class="h-48 rounded-2xl bg-slate-950 overflow-hidden relative mb-5 flex items-center justify-center p-3">
             <img 
-              src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80" 
-              alt="Computerized automated eye testing"
-              class="w-full h-full object-cover rounded-xl"
+              src="https://images.pexels.com/photos/19596247/pexels-photo-19596247.jpeg?auto=compress&cs=tinysrgb&w=800" 
+              onerror="this.onerror=null; this.src='https://images.pexels.com/photos/4989148/pexels-photo-4989148.jpeg?auto=compress&cs=tinysrgb&w=800';"
+              alt="Dark-skinned Black African female doctor in lab coat with stethoscope"
+              class="w-full h-full object-cover object-top rounded-xl"
             />
             <div class="absolute top-3 left-3 bg-brand-navy/90 text-brand-cyan text-[10px] font-extrabold px-2.5 py-1 rounded border border-brand-cyan/30">
               Automated Diagnostics
@@ -658,9 +661,10 @@
         <div class="bg-slate-800/90 rounded-3xl p-6 border border-slate-700 hover:border-brand-azure/60 transition duration-300">
           <div class="h-48 rounded-2xl bg-slate-950 overflow-hidden relative mb-5 flex items-center justify-center p-3">
             <img 
-              src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80" 
-              alt="Ophthalmic magnified eye examination"
-              class="w-full h-full object-cover rounded-xl"
+              src="https://images.pexels.com/photos/30678208/pexels-photo-30678208.jpeg?auto=compress&cs=tinysrgb&w=800" 
+              onerror="this.onerror=null; this.src='https://images.pexels.com/photos/4989148/pexels-photo-4989148.jpeg?auto=compress&cs=tinysrgb&w=800';"
+              alt="Nigerian doctor examining a patient in a Lagos medical clinic"
+              class="w-full h-full object-cover object-top rounded-xl"
             />
             <div class="absolute top-3 left-3 bg-brand-royal/90 text-white text-[10px] font-extrabold px-2.5 py-1 rounded border border-white/20">
               Biomicroscopy
@@ -679,9 +683,10 @@
         <div class="bg-slate-800/90 rounded-3xl p-6 border border-slate-700 hover:border-emerald-500/60 transition duration-300">
           <div class="h-48 rounded-2xl bg-slate-950 overflow-hidden relative mb-5 flex items-center justify-center p-3">
             <img 
-              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" 
-              alt="Eye pressure testing for glaucoma"
-              class="w-full h-full object-cover rounded-xl"
+              src="https://images.pexels.com/photos/30677597/pexels-photo-30677597.jpeg?auto=compress&cs=tinysrgb&w=800" 
+              onerror="this.onerror=null; this.src='https://images.pexels.com/photos/19596247/pexels-photo-19596247.jpeg?auto=compress&cs=tinysrgb&w=800';"
+              alt="Nigerian medical specialist consulting with a patient in clinic"
+              class="w-full h-full object-cover object-top rounded-xl"
             />
             <div class="absolute top-3 left-3 bg-emerald-900/90 text-emerald-300 text-[10px] font-extrabold px-2.5 py-1 rounded border border-emerald-500/30">
               Glaucoma Screen
@@ -961,7 +966,7 @@
             Schedule Your Comprehensive Consultation
           </h2>
 
-          <p class="font-script text-2xl text-rose-700 font-bold">
+          <p class="font-script text-2xl text-brand-logoScript font-bold">
             ...Excellence In Eye Care
           </p>
 
@@ -1284,19 +1289,19 @@
             <div class="relative h-64 rounded-2xl bg-white border border-slate-200 flex flex-col items-center justify-center text-center p-6 overflow-hidden">
               <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#0077b6_1px,transparent_1px)] [background-size:16px_16px]"></div>
               
-              <!-- Maxiview Eye Clinic Authentic Logo Mark Card -->
-              <div class="relative z-10 w-20 h-16 flex items-center justify-center mb-1">
-                <svg viewBox="0 0 240 220" class="w-full h-full" fill="none">
-                  <path d="M 40 78 C 55 25, 120 18, 172 36" stroke="#00B4D8" stroke-width="8" stroke-linecap="round"/>
-                  <path d="M 30 110 C 65 52, 140 45, 215 58 C 175 75, 125 72, 85 88 C 65 96, 45 106, 30 110 Z" fill="#00B4D8"/>
-                  <circle cx="112" cy="86" r="30" fill="#0284C7"/>
-                  <circle cx="112" cy="86" r="23" stroke="#BAE6FD" stroke-width="1.8" stroke-dasharray="2 2"/>
-                  <circle cx="112" cy="86" r="11" fill="#FFFFFF"/>
-                  <circle cx="112" cy="86" r="5" fill="#0C4A6E"/>
-                  <path d="M 52 122 C 90 144, 140 142, 176 96 C 145 132, 95 132, 52 122 Z" fill="#00B4D8"/>
+              <!-- Maxiview Eye Clinic Official Logo Mark Card -->
+              <div class="relative z-10 w-24 h-16 flex items-center justify-center mb-1">
+                <svg viewBox="0 0 240 165" class="w-full h-full" fill="none">
+                  <path d="M 38 66 C 54 14, 118 8, 168 26 C 122 16, 62 24, 38 66 Z" fill="#1E8BB7"/>
+                  <path d="M 24 102 C 62 38, 134 32, 214 48 C 192 74, 152 72, 118 62 C 82 54, 48 74, 24 102 Z" fill="#1E8BB7"/>
+                  <circle cx="106" cy="80" r="32" fill="#2396C4"/>
+                  <circle cx="106" cy="80" r="26" stroke="#67C5E8" stroke-width="2" stroke-dasharray="2.5 2.5"/>
+                  <circle cx="104" cy="81" r="11" fill="#FFFFFF"/>
+                  <circle cx="123" cy="74" r="8" fill="#FFFFFF"/>
+                  <path d="M 48 118 C 92 146, 148 140, 178 88 C 146 124, 94 128, 48 118 Z" fill="#1E8BB7"/>
                 </svg>
               </div>
-              <h4 class="relative z-10 text-brand-logoBlue font-black text-xl tracking-tight leading-none" style="font-weight: 900;">
+              <h4 class="relative z-10 font-logoSlab text-brand-logoBlue text-xl tracking-wide leading-tight">
                 MAXIVIEW EYE CLINIC
               </h4>
               <p class="font-script text-base sm:text-lg text-brand-logoScript font-bold mt-0.5">...Excellence In Eye Care</p>
@@ -1327,24 +1332,25 @@
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800/80">
         
-        <!-- Column 1 & 2: Clinic Brand Details with Authentic Logo -->
+        <!-- Column 1 & 2: Clinic Brand Details with Official Logo -->
         <div class="lg:col-span-2 space-y-4">
-          <a href="#" class="flex items-center gap-3 bg-white/95 p-2.5 rounded-2xl w-fit shadow-md">
-            <div class="w-12 h-12 shrink-0">
-              <svg viewBox="0 0 240 220" class="w-full h-full" fill="none">
-                <path d="M 40 78 C 55 25, 120 18, 172 36" stroke="#00B4D8" stroke-width="8" stroke-linecap="round"/>
-                <path d="M 30 110 C 65 52, 140 45, 215 58 C 175 75, 125 72, 85 88 C 65 96, 45 106, 30 110 Z" fill="#00B4D8"/>
-                <circle cx="112" cy="86" r="28" fill="#0284C7"/>
-                <circle cx="112" cy="86" r="11" fill="#FFFFFF"/>
-                <circle cx="112" cy="86" r="5" fill="#0C4A6E"/>
-                <path d="M 52 122 C 90 144, 140 142, 176 96 C 145 132, 95 132, 52 122 Z" fill="#00B4D8"/>
+          <a href="#" class="flex items-center gap-3 bg-white p-3 rounded-2xl w-fit shadow-md">
+            <div class="w-14 h-12 shrink-0">
+              <svg viewBox="0 0 240 165" class="w-full h-full" fill="none">
+                <path d="M 38 66 C 54 14, 118 8, 168 26 C 122 16, 62 24, 38 66 Z" fill="#1E8BB7"/>
+                <path d="M 24 102 C 62 38, 134 32, 214 48 C 192 74, 152 72, 118 62 C 82 54, 48 74, 24 102 Z" fill="#1E8BB7"/>
+                <circle cx="106" cy="80" r="32" fill="#2396C4"/>
+                <circle cx="106" cy="80" r="26" stroke="#67C5E8" stroke-width="2" stroke-dasharray="2.5 2.5"/>
+                <circle cx="104" cy="81" r="11" fill="#FFFFFF"/>
+                <circle cx="123" cy="74" r="8" fill="#FFFFFF"/>
+                <path d="M 48 118 C 92 146, 148 140, 178 88 C 146 124, 94 128, 48 118 Z" fill="#1E8BB7"/>
               </svg>
             </div>
             <div>
-              <span class="text-base font-black text-brand-logoBlue uppercase leading-none block font-sans" style="font-weight: 900;">
+              <span class="font-logoSlab text-base text-brand-logoBlue uppercase leading-tight block">
                 MAXIVIEW EYE CLINIC
               </span>
-              <p class="font-script text-brand-logoScript text-xs sm:text-sm font-bold">...Excellence In Eye Care</p>
+              <p class="font-script text-brand-logoScript text-sm font-bold">...Excellence In Eye Care</p>
             </div>
           </a>
           <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
